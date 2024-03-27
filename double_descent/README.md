@@ -20,3 +20,7 @@ Here I am able to reproduce the double descent curve; however, a question still 
 I think that we are restraining the model complexity until the point when we begin increasing the number of estimators, but is this really an example of double descent?
 
 This experiment was performed to reproduce the results from Belkin et. al (2019), "Reconciling modern machine learning practice and the bias-variance tradeoff"
+
+## k-Nearest Neighbors bias-variance tradeoff
+
+The purpose of this notebook is to show an example in which double descent does not occur, i.e. one which exemplifies the classical bias-variance tradeoff. This experiment successfully showed the classical "U-shaped" curve as a function of the model complexity.

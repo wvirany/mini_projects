@@ -5,7 +5,7 @@ The purpose of this notebook was to investigate the idea that interpolating clas
 
 ## random forests as interpolating classifiers
 
-The purpose of this notebook was to investigate the nature of random forests as interpolating classifiers in three different regimes:
+The purpose of this notebook was to investigate the nature of random forests as interpolating classifiers in three different settings:
 
 * An example with pure noise
 * An example with signal and some noise

@@ -24,3 +24,7 @@ This experiment was performed to reproduce the results from Belkin et. al (2019)
 ## k-Nearest Neighbors bias-variance tradeoff
 
 The purpose of this notebook is to show an example in which double descent does not occur, i.e. one which exemplifies the classical bias-variance tradeoff. This experiment successfully showed the classical "U-shaped" curve as a function of the model complexity. It is known that RFs are a weighted version of kNN. From here, it would be interesting to investigate the theoretical reasons why RFs are robust to overfitting while kNN is not.
+
+## AdaBoost as an interpolating classifier
+
+This notebook demonstrates the ability of AdaBoost to fit to an arbitrary dataset, and furthermore, the ability to generalize well in the overparameterized regime. However, there is an issue here. Scikit-Learn implements an "early-stopping" mechanism which effectively regularizes the complexity of the AdaBoost classifier. Hence, I am unable to examine the loss surface as the complexity increases beyond the interpolation threshold. This will be addressed in the future.

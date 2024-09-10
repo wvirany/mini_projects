@@ -1,2 +1,2 @@
 # mini_projects
-A collection of mini projects (generally for the prupose of learning)
+A collection of mini projects (generally for the purpose of learning)
